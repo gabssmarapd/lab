@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWord from './components/HelloWorld';
 
 function App() {
    const name = 'Gabriel'
@@ -20,6 +21,7 @@ function sum(a, b){
       <p>Olá, {newName}</p>
       <p>{newTotal}: {sum(5, 5)}</p>
       <img src= {URL} alt = {newImg} />
+      <HelloWord/>
     </div>
   );
 }

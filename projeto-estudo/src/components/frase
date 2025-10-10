@@ -1,0 +1,9 @@
+function Frase () {
+  return (
+    <div>
+    <h1>Teste Frase</h1>
+    </div>
+  )
+}
+
+export default Frase
