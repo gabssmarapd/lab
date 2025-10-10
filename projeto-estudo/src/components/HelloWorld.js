@@ -1,12 +1,12 @@
-import Frase from './frase'
+import Frase from './Frase';
 
-function HelloWord() {
-return(
-<div>
-   <Frase/>
-<h1>meu primeiro componete</h1>
-</div>
-)
+function HelloWorld() {
+  return (
+    <div>
+      <Frase />
+      <h1>Meu primeiro componente</h1>
+    </div>
+  );
 }
 
-export default HelloWord
+export default HelloWorld;
