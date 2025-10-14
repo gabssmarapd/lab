@@ -1,10 +1,13 @@
 import './App.css';
 import Evento from './components/Evento';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
       <h1>TESTE</h1>
+      <Evento numero={50} />
+      <Form />
     </div>
   );
 }
