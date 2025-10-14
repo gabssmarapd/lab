@@ -1,6 +1,7 @@
 import './App.css';
 import Pessoa from './components/Pessoa';
 import Frase from './components/Frase';
+import List from './components/List'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
               foto="https://placehold.co/150x150?font=roboto"
               idade="25" 
               profissao="DEV" />
+      <List />
     </div>
   );
 }
