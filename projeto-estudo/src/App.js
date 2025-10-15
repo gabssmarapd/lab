@@ -1,15 +1,14 @@
 import './App.css';
-import Evento from './components/Evento';
-import Form from './components/Form';
 
 function App() {
+
+  const meusItens = ['React', 'Vue', 'Angular']
+  
   return (
     <div className="App">
-      <h1>TESTE</h1>
-      <Evento numero={50} />
-      <Form />
+      <h1>Renderização de Listas</h1>
     </div>
-  );
+  )
 }
 
 export default App;
