@@ -2,7 +2,7 @@ function Empresa (){
     return(
         <div>
             <h1>Empresa</h1>
-            <p>Empresa</p>
+            <p>Conteúdo da página</p>
         </div>
     )
 }
